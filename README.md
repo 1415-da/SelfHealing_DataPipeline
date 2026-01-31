@@ -280,10 +280,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Author
 
-**Yusuf Ganiyu** - [@airscholar](https://github.com/airscholar)
-
----
-
-If you found this project helpful, please consider giving it a star!
