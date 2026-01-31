@@ -10,11 +10,11 @@ import logging
 logger = logging.getLogger(__name__)
 
 class Config:
-    BASE_DIR = os.getenv('PIPELINE_BASE_DIR', '/Users/airscholar/PycharmProjects/SelfHealingPipeline')
+    BASE_DIR = os.getenv('PIPELINE_BASE_DIR', '/Users/gaurav/Desktop/SelfHealingPipeline')
     INPUT_FILE = os.getenv('PIPELINE_INPUT_FILE',
-                           f'{BASE_DIR}/input/yelp_academic_dataset_review.json')
+                        f'{BASE_DIR}/input/yelp_academic_dataset_review.json')
     OUTPUT_DIR = os.getenv('PIPELINE_OUTPUT_DIR',
-                           f'{BASE_DIR}/output/')
+                        f'{BASE_DIR}/output/')
 
     MAX_TEXT_LENGTH = int(os.getenv('PIPELINE_MAX_TEXT_LENGTH', 2000))
     DEFAULT_BATCH_SIZE = 100

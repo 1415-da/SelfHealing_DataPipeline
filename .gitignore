@@ -1,7 +1,45 @@
-.venv
-*.json
+# Python
+.venv/
 __pycache__/
 *.pyc
-.DS_Store
-.idea/
+*.pyo
+*.pyd
+.Python
+
+# Airflow sensitive files
+airflow.db
+airflow.db-shm
+airflow.db-wal
+simple_auth_manager_passwords.json.generated
+webserver_config.py
+airflow.cfg
+
+# Logs
+logs/
 *.log
+
+# Input/Output data (may contain sensitive data)
+input/*.json
+output/
+*.json
+
+# Environment and IDE
+.env
+.venv
+.idea/
+.vscode/
+.DS_Store
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Models (if any)
+models/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
